@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		263A9CCA70F614BBA3FC166F /* Pods_ParstagramTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE3432479F19F27D3EF0FC55 /* Pods_ParstagramTests.framework */; };
+		83287C19253E3758004CC9E2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83287C18253E3758004CC9E2 /* SceneDelegate.swift */; };
 		838575452534E10C00F49FE1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 838575442534E10C00F49FE1 /* AppDelegate.swift */; };
-		838575472534E10C00F49FE1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 838575462534E10C00F49FE1 /* SceneDelegate.swift */; };
 		8385754C2534E10C00F49FE1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8385754A2534E10C00F49FE1 /* Main.storyboard */; };
 		8385754E2534E10E00F49FE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8385754D2534E10E00F49FE1 /* Assets.xcassets */; };
 		838575512534E10E00F49FE1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8385754F2534E10E00F49FE1 /* LaunchScreen.storyboard */; };
@@ -45,9 +45,9 @@
 		39182FC5A67F6B17B8ED476B /* Pods-Parstagram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Parstagram.release.xcconfig"; path = "Target Support Files/Pods-Parstagram/Pods-Parstagram.release.xcconfig"; sourceTree = "<group>"; };
 		5124E1282E442F246CDB8CAA /* Pods-Parstagram-ParstagramUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Parstagram-ParstagramUITests.debug.xcconfig"; path = "Target Support Files/Pods-Parstagram-ParstagramUITests/Pods-Parstagram-ParstagramUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		77F550F37A2909ECB0E86C61 /* Pods-ParstagramTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ParstagramTests.debug.xcconfig"; path = "Target Support Files/Pods-ParstagramTests/Pods-ParstagramTests.debug.xcconfig"; sourceTree = "<group>"; };
+		83287C18253E3758004CC9E2 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SceneDelegate.swift; path = "../../../Library/Mobile Documents/com~apple~CloudDocs/.Trash/SceneDelegate.swift"; sourceTree = "<group>"; };
 		838575412534E10C00F49FE1 /* Parstagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Parstagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		838575442534E10C00F49FE1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		838575462534E10C00F49FE1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		8385754B2534E10C00F49FE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8385754D2534E10E00F49FE1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		838575502534E10E00F49FE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -123,7 +123,7 @@
 			isa = PBXGroup;
 			children = (
 				838575442534E10C00F49FE1 /* AppDelegate.swift */,
-				838575462534E10C00F49FE1 /* SceneDelegate.swift */,
+				83287C18253E3758004CC9E2 /* SceneDelegate.swift */,
 				8385754A2534E10C00F49FE1 /* Main.storyboard */,
 				8385754D2534E10E00F49FE1 /* Assets.xcassets */,
 				8385754F2534E10E00F49FE1 /* LaunchScreen.storyboard */,
@@ -420,8 +420,8 @@
 				83857579253506A000F49FE1 /* CameraViewController.swift in Sources */,
 				838575452534E10C00F49FE1 /* AppDelegate.swift in Sources */,
 				838575772534ED8700F49FE1 /* FeedViewController.swift in Sources */,
-				838575472534E10C00F49FE1 /* SceneDelegate.swift in Sources */,
 				8385757B25352CCF00F49FE1 /* PostCell.swift in Sources */,
+				83287C19253E3758004CC9E2 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

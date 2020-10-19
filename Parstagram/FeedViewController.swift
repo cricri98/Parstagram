@@ -59,6 +59,12 @@ class FeedViewController: UIViewController, UITableViewDelegate, UITableViewData
     }
     
 
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let post = posts[indexPath.row]
+        
+        //let comment = PF
+    }
+    
     /*
     // MARK: - Navigation
 
@@ -69,4 +75,10 @@ class FeedViewController: UIViewController, UITableViewDelegate, UITableViewData
     }
     */
 
+    
+    @IBAction func onLogoutButton(_ sender: Any) {
+        PFUser.logOut()
+        self.dismiss(animated: true, completion: nil)
+    }// thank you slack!
+    
 }
