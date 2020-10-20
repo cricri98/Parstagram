@@ -136,6 +136,42 @@
                                             <outlet property="usernameLabel" destination="54i-k6-FoC" id="hwD-gN-RY4"/>
                                         </connections>
                                     </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="CommentCell" id="gtZ-xJ-t59" customClass="CommentCell" customModule="Parstagram" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="403" width="375" height="37.5"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="gtZ-xJ-t59" id="zn3-QO-qTk">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="37.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Admin" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OBB-ob-he7">
+                                                    <rect key="frame" x="16" y="8" width="49" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="test 1 test 2 test 3" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fMf-AG-ghY">
+                                                    <rect key="frame" x="73" y="8" width="137.5" height="20.5"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="fMf-AG-ghY" secondAttribute="bottom" constant="8" id="7e6-Wk-JH7"/>
+                                                <constraint firstItem="OBB-ob-he7" firstAttribute="leading" secondItem="zn3-QO-qTk" secondAttribute="leading" constant="16" id="7v2-by-tL0"/>
+                                                <constraint firstItem="fMf-AG-ghY" firstAttribute="top" secondItem="zn3-QO-qTk" secondAttribute="top" constant="8" id="AEh-v7-3fo"/>
+                                                <constraint firstItem="fMf-AG-ghY" firstAttribute="leading" secondItem="OBB-ob-he7" secondAttribute="trailing" constant="8" id="D0h-TS-eBd"/>
+                                                <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="OBB-ob-he7" secondAttribute="bottom" constant="8" id="Htn-tu-Tg1"/>
+                                                <constraint firstItem="fMf-AG-ghY" firstAttribute="leading" secondItem="OBB-ob-he7" secondAttribute="trailing" constant="8" id="KbQ-1B-3oG"/>
+                                                <constraint firstItem="OBB-ob-he7" firstAttribute="top" secondItem="zn3-QO-qTk" secondAttribute="top" constant="8" id="LOE-Qd-2iC"/>
+                                                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="fMf-AG-ghY" secondAttribute="trailing" constant="8" id="mqv-4B-AyF"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="commentLabel" destination="fMf-AG-ghY" id="6zc-re-4k8"/>
+                                            <outlet property="nameLabel" destination="OBB-ob-he7" id="67z-Xi-n7v"/>
+                                        </connections>
+                                    </tableViewCell>
                                 </prototypes>
                             </tableView>
                         </subviews>
